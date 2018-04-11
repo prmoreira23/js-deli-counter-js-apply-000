@@ -16,13 +16,9 @@ function currentLine(arr){
 }
 
 function nowServing(arr){
-<<<<<<< HEAD
     if(arr.length < 1){
         return "There is nobody waiting to be served!";
     }
     var customer = arr.shift();
-=======
-    var customer = arr.unshift();
->>>>>>> 7e49199d2c4c0fee3bb551a60411f935202fc150
     return "Currently serving "+customer+".";
 }
